@@ -1,0 +1,46 @@
+h1 {
+    font-family: sans-serif;
+    color: white;
+    background-color: navy;
+    padding: 15px;
+    border-radius: 14px;
+    text-align: center;
+  }
+  p {
+    font-family: Arial;
+    font-size: 20px;
+  }
+  .descricao {
+    position: absolute;
+    top: 5px;
+    left: 350px;
+}
+  body {
+    background-color: rgb(145, 176, 235);
+    padding: 3%;
+  }
+  .primeira { font-size: 25px; }
+  .segunda { font-size: 23px; }
+  .terceira { font-size: 21px; }
+  .quarta { font-size: 19px; }
+  .quinta { font-size: 17px; }
+  .sexta { font-size: 15px; }
+  .picture {
+    border-radius: 30%;
+  }
+#foto {
+    float: left;
+    height: 400px;
+    padding: 10px;
+    background-color: darkblue;
+}
+.image-container {
+    height: 420px;
+    position: relative;
+}
+ul li:nth-child(odd) {
+    background-color: rgb(145, 176, 235);
+}
+
+
+

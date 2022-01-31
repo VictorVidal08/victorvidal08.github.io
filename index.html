@@ -2,41 +2,19 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8">
-    <style>
-
-      h1 {
-        font-family: sans-serif;
-        color: white;
-        background-color: navy;
-        padding: 15px;
-        border-radius: 14px;
-      }
-      p {
-        font-family: Arial;
-        font-size: 20px;
-      }
-      body {
-        background-color: rgb(145, 176, 235);
-        text-align: center;
-      }
-      .primeira { font-size: 25px; }
-      .segunda { font-size: 23px; }
-      .terceira { font-size: 21px; }
-      .quarta { font-size: 19px; }
-      .quinta { font-size: 17px; }
-      .sexta { font-size: 15px; }
-      .picture {
-        border-radius: 30%;
-      }
-    
-    </style>
+    <link rel="stylesheet" href="style.css">
     <title>HTML</title>
   </head>
   <body>
+    <div>
     <h1>Victor Guimarães Vidal</h1>
-    <a href="#foto"><img src="foto.jpg" alt="foto de perfil, feliz em um lugar chamado topo do mundo" width="400"></a>
-    <p>Meu nome é Victor, tenho 27 anos, sou engenheiro e estou curtindo demais o curso ta trybe!!!</p>
+      <div class="image-container">
+        <a><img src="foto.jpg" alt="foto de perfil, feliz em um lugar chamado topo do mundo" id="foto"></a>
+        <p class="descricao">Meu nome é Victor, tenho 27 anos, sou engenheiro e estou curtindo demais o curso ta trybe!!!</p>       
+      </div>
+    </div>
     <p>Atualmente moro em Itabirito-MG, sou <em>Brasileiro</em>, natural de Mariana <strong>(primeira capital do Brasil)</strong> e gosto de saber o funcionamento das coisas.</p>
+   <h2> Lista de habilidades: </h2>
     <ul>
         <li class="primeira"><strong>Gosto de maquinas e saber como funcionam!</strong></li>
         <li class="segunda">Dirijo bem.</li>
